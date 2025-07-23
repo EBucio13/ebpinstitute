@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El Buen Pastor Bible Institute - Baytown, TX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #004080;
+    }
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .info-section {
+      margin-bottom: 20px;
+    }
+    .calendar {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .calendar th, .calendar td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      vertical-align: top;
+    }
+    .calendar th {
+      background-color: #004080;
+      color: white;
+    }
+    .btn-register {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 12px 25px;
+      background-color: #004080;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .btn-register:hover {
+      background-color: #003366;
+    }
+    .btn-download {
+      display: inline-block;
+      margin: 10px 0 30px 0;
+      padding: 10px 20px;
+      background-color: #006600;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn-download:hover {
+      background-color: #004d00;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        margin: 15px;
+        padding: 15px;
+      }
+      .calendar th, .calendar td {
+        padding: 6px;
+        font-size: 0.9rem;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>El Buen Pastor Bible Institute</h1>
+    <p>Baytown, Texas - Assemblies of God</p>
+  </header>
+  <main>
+    <section class="info-section">
+      <h2>About Us</h2>
+      <p>
+        Our Bible Institute is part of <strong>El Buen Pastor Church Assemblies of God</strong>, located at <br />
+        <strong>2600 Virginia St, Baytown, TX 77520</strong>.
+      </p>
+      <p>
+        We follow the core beliefs of the Assemblies of God. Learn more at <a href="https://www.ag.org" target="_blank" rel="noopener">www.ag.org</a>.
+      </p>
+      <p>
+        We are a study group under <strong>Global University Berean Studies</strong>. Students can register on our study center landing page:
+        <br />
+        <a href="https://2603tx.globalustudygroups.org/" target="_blank" rel="noopener" class="btn-register">Register Here</a>
+      </p>
+    </section>
+    
+    <section class="info-section">
+      <h2>Class Schedule</h2>
+      <p><strong>Days:</strong> Tuesdays & Thursdays</p>
+      <p><strong>Time:</strong> 6:30 PM – 9:30 PM</p>
+      <p><strong>Courses Offered:</strong> English Bible Courses available</p>
+    </section>
+    
+    <section>
+      <h2>Fall 2025 Academic Calendar</h2>
+      <table class="calendar" aria-label="Bible Institute Fall 2025 Schedule">
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Meeting Dates (Tuesdays & Thursdays)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>August 2025</td>
+            <td>26 (Tuesday, 7:00 PM start)</td>
+          </tr>
+          <tr>
+            <td>September 2025</td>
+            <td>2, 4, 9, 11, 16, 23, 25, 30<br/><em>No class on 18 (Women's Camp)</em></td>
+          </tr>
+          <tr>
+            <td>October 2025</td>
+            <td>2, 7, 9, 14, 16, 23, 28, 30<br/><em>No class on 25 (Men's Camp)</em></td>
+          </tr>
+          <tr>
+            <td>November 2025</td>
+            <td>4, 6, 11, 13, 18, 20</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>Note: Class times are 6:30 PM - 9:30 PM unless otherwise noted.</em></p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 El Buen Pastor Bible Institute | Baytown, TX</p>
+  </footer>
+</body>
+</html>
